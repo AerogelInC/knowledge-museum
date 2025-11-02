@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知识博物馆 - 个人学习收藏</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">知识博物馆</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#subjects">学科</a></li>
+                <li><a href="#about">关于</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">知识博物馆</h1>
+                <p class="hero-subtitle">收藏与展示我的学习历程</p>
+                <div class="scroll-indicator">
+                    <span>向下滚动探索</span>
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <div class="section-content">
+                <h2 class="section-title">欢迎来到我的知识世界</h2>
+                <p class="section-text">
+                    这里是我从大学至今学习过的各种学科的收藏馆。
+                    每一个学科都代表着一段探索的旅程，每一个知识点都是思想的结晶。
+                    用滚动的方式，让我们一起探索这些知识的宝藏。
+                </p>
+            </div>
+        </section>
+
+        <!-- Subjects Section -->
+        <section class="subjects-section" id="subjects">
+            <!-- Subject 1 -->
+            <div class="subject-card" data-subject="1">
+                <div class="subject-content">
+                    <div class="subject-header">
+                        <span class="subject-number">01</span>
+                        <h2 class="subject-title">计算机科学</h2>
+                    </div>
+                    <div class="subject-body">
+                        <div class="subject-image-container">
+                            <div class="subject-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                        </div>
+                        <div class="subject-description">
+                            <h3>涵盖内容</h3>
+                            <ul>
+                                <li>数据结构与算法</li>
+                                <li>操作系统原理</li>
+                                <li>计算机网络</li>
+                                <li>数据库系统</li>
+                                <li>软件工程</li>
+                                <li>人工智能基础</li>
+                            </ul>
+                            <p class="subject-notes">
+                                这是我在大学期间深入学习的第一门专业学科，
+                                奠定了我的技术基础，培养了逻辑思维和问题解决能力。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 2 -->
+            <div class="subject-card" data-subject="2">
+                <div class="subject-content">
+                    <div class="subject-header">
+                        <span class="subject-number">02</span>
+                        <h2 class="subject-title">数学</h2>
+                    </div>
+                    <div class="subject-body">
+                        <div class="subject-image-container">
+                            <div class="subject-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                        </div>
+                        <div class="subject-description">
+                            <h3>涵盖内容</h3>
+                            <ul>
+                                <li>高等数学</li>
+                                <li>线性代数</li>
+                                <li>概率论与数理统计</li>
+                                <li>离散数学</li>
+                                <li>数学分析</li>
+                                <li>运筹学</li>
+                            </ul>
+                            <p class="subject-notes">
+                                数学是科学的语言，通过学习数学，
+                                我掌握了抽象的思维方式，学会了严谨的推理方法。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 3 -->
+            <div class="subject-card" data-subject="3">
+                <div class="subject-content">
+                    <div class="subject-header">
+                        <span class="subject-number">03</span>
+                        <h2 class="subject-title">物理学</h2>
+                    </div>
+                    <div class="subject-body">
+                        <div class="subject-image-container">
+                            <div class="subject-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                        </div>
+                        <div class="subject-description">
+                            <h3>涵盖内容</h3>
+                            <ul>
+                                <li>大学物理</li>
+                                <li>理论力学</li>
+                                <li>电磁学</li>
+                                <li>量子力学基础</li>
+                                <li>热力学</li>
+                                <li>光学</li>
+                            </ul>
+                            <p class="subject-notes">
+                                物理学让我理解了世界的运行规律，
+                                从微观到宏观，从经典到现代，每一门课程都拓宽了我的视野。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 4 -->
+            <div class="subject-card" data-subject="4">
+                <div class="subject-content">
+                    <div class="subject-header">
+                        <span class="subject-number">04</span>
+                        <h2 class="subject-title">文学与哲学</h2>
+                    </div>
+                    <div class="subject-body">
+                        <div class="subject-image-container">
+                            <div class="subject-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                        </div>
+                        <div class="subject-description">
+                            <h3>涵盖内容</h3>
+                            <ul>
+                                <li>中国古典文学</li>
+                                <li>西方哲学史</li>
+                                <li>文学批评理论</li>
+                                <li>伦理学</li>
+                                <li>美学</li>
+                                <li>比较文学</li>
+                            </ul>
+                            <p class="subject-notes">
+                                人文科学滋养了我的精神世界，
+                                让我在技术的理性之外，也能感受到艺术与思想的温度。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 5 -->
+            <div class="subject-card" data-subject="5">
+                <div class="subject-content">
+                    <div class="subject-header">
+                        <span class="subject-number">05</span>
+                        <h2 class="subject-title">经济学</h2>
+                    </div>
+                    <div class="subject-body">
+                        <div class="subject-image-container">
+                            <div class="subject-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                        </div>
+                        <div class="subject-description">
+                            <h3>涵盖内容</h3>
+                            <ul>
+                                <li>微观经济学</li>
+                                <li>宏观经济学</li>
+                                <li>计量经济学</li>
+                                <li>金融学</li>
+                                <li>国际经济学</li>
+                                <li>行为经济学</li>
+                            </ul>
+                            <p class="subject-notes">
+                                经济学帮助我理解社会运行的内在逻辑，
+                                学会从数据和模型的角度分析现实问题。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subject 6 -->
+            <div class="subject-card" data-subject="6">
+                <div class="subject-content">
+                    <div class="subject-header">
+                        <span class="subject-number">06</span>
+                        <h2 class="subject-title">设计学</h2>
+                    </div>
+                    <div class="subject-body">
+                        <div class="subject-image-container">
+                            <div class="subject-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                        </div>
+                        <div class="subject-description">
+                            <h3>涵盖内容</h3>
+                            <ul>
+                                <li>视觉设计原理</li>
+                                <li>交互设计</li>
+                                <li>用户体验设计</li>
+                                <li>平面设计</li>
+                                <li>设计心理学</li>
+                                <li>数字媒体艺术</li>
+                            </ul>
+                            <p class="subject-notes">
+                                设计学让我理解了美与功能的关系，
+                                学会了如何创造既美观又实用的作品。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <h2 class="section-title">关于这个博物馆</h2>
+                <p class="section-text">
+                    这个网站是我学习历程的数字化呈现。每一门学科，
+                    每一个知识点，都是我成长路上的见证。
+                    通过滚动探索，我希望能够以一种优雅的方式，
+                    展示知识的连续性和学习的持续性。
+                </p>
+                <p class="section-text">
+                    设计灵感来源于现代博物馆的展示方式，
+                    以及苹果官网的交互体验。
+                    知识不仅仅是信息的堆砌，更是思考和理解的结晶。
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 知识博物馆. 持续更新中...</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
